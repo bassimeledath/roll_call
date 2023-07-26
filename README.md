@@ -10,7 +10,7 @@ To run the script, simply run the following command in the terminal:
 python3 roll_call.py   
 ```
 
-To begin roll call with a specific name run:
+To begin roll call with a specific name run the below. Don't worry about getting the exact full name, the script will find the name that starts with the string you provide.
     
 ```python
 python3 roll_call.py <name>
