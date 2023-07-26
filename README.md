@@ -13,6 +13,6 @@ python3 roll_call.py
 To begin roll call with a specific name run:
     
 ```python
-python3 roll_call.py -s <name>
+python3 roll_call.py <name>
 ```
 
