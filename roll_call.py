@@ -20,6 +20,7 @@ def play_audio_files(directory, starting_name='', wait_time=5):
         file_path = os.path.join(directory, filename)
         pygame.mixer.music.load(file_path)
         pygame.mixer.music.play()
+        print(f"Now calling: {filename[:-4]}")
         while pygame.mixer.music.get_busy():
             time.sleep(wait_time)
 
