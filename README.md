@@ -1,4 +1,4 @@
-# roll_call
+# Roll Call Application :speaking_head:
 
 ## Description
 This is a simple roll call application that calls out the names of students in the data folder (has to be provided) by running .mp3 files. The mp3 files are created by the text_to_speech.py script. The user can specify a lag time to determine time between name calls and can also specify what name to start with. All names are called in alphabetical order.
